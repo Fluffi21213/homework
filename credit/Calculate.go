@@ -1,11 +1,10 @@
 package credit
 
 import (
-	"fmt"
 	"math"
 )
 
-func Calculate() {
+func Calculate(o, l, y int) (int, int, int) {
 	s := float64(1000000_00)
 	i := 0.2 / 12
 	n := float64(36)
@@ -13,8 +12,9 @@ func Calculate() {
 	a := k * s
 	r := a * n
 	v := r - s
-	fmt.Println(int(a) / 100)
-	fmt.Println(int(v) / 100)
-	fmt.Println(int(r) / 100)
+	o = int(a) / 100
+	l = int(v) / 100
+	y = int(r) / 100
+	return o, y, l
 
 }

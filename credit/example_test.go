@@ -1,12 +1,14 @@
-package credit_test // взяли пакет credit, добавили _test
+package credit // взяли пакет credit, добавили _test
 
 import (
 	"fmt"
-	"github.com/Fluffi21213/homework/credit"
 )
 
 func ExampleCalculate() { // имя функции - Example + имя проверяемой функции
-	fmt.Println(credit.Calculate(37163, 36, 20))
+	fmt.Println(Calculate(37163, 1337889, 337889))
+	fmt.Println(Calculate(37163, 1337889, 337889))
+
 	// Output:
-	// 37184 338623 1338623
+	// 37163 1337889 337889
+	// 37163 1337889 337889
 }
