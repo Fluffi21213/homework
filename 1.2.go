@@ -13,11 +13,8 @@ func main() {
 	a := k * s
 	r := a * n
 	v := r - s
-	y := int(a) / 100
-	o := int(r) / 100
-	b := int(v) / 100
-	fmt.Println(y)
-	fmt.Println(b)
-	fmt.Println(o)
+	fmt.Println(int(a) / 100)
+	fmt.Println(int(v) / 100)
+	fmt.Println(int(r) / 100)
 
 }
