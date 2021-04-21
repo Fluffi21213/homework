@@ -1,11 +1,11 @@
-package main
+package credit
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Calculate() {
 	s := float64(1000000_00)
 	i := 0.2 / 12
 	n := float64(36)
